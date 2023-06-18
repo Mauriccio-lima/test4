@@ -1,6 +1,7 @@
 import telebot
 import flask
 
+app = Flask(__name__)
 bot = telebot.TeleBot("5839756034:AAHBl1NiRzjmmXyjwcAQmb24HLbJblHgJhE")
 
 @bot.message_handler(commands=['start', 'help'])
